@@ -4,4 +4,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     background-image:url(http://wallpaperswide.com/download/gray_pixels_background-wallpaper-1600x900.jpg);
+    text-align: center;
+}
+main {
+    margin: 1 auto;
+    width: 30rem;
 }
