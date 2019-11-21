@@ -1,6 +1,4 @@
 $(() => {
-
-    // Submit a form
     $('#search-form').submit((e) => {
         e.preventDefault();
         const artist = $('#search-artist').val();
@@ -18,7 +16,6 @@ $(() => {
     }
 
     function showResults(lyrics) {
-        console.log(lyrics);
         $.each(lyrics, (i, value) => {
             $('#results').append(`<p>${value}</p>`);
         });
